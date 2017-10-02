@@ -1,0 +1,41 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;   
+}
+
+div.item {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 220px;
+    width: 100%;
+    background: #000000;
+    text-align: center;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+}
+
+/*
+div.item * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*/
+div.item img {
+    max-width: 100%;
+    vertical-align: top;
+    height: 210px;
+}
