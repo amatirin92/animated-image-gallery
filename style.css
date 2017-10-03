@@ -31,7 +31,7 @@ h1 {
 
 div.item {
     position: relative;
-    float: right;
+    float: left;
     min-width: 100px;
     max-width: 300px;
     text-align: center;
