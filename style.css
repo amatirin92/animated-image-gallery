@@ -91,6 +91,25 @@ div.item.copper {
     background-color: #C45933;
 }
 
+div.item.pink {
+    background-color: #C46356;
+}
+div.item.pink i {
+    
+}
+div.item.beige {
+    background-color: #C49239;
+}
+div.item.beige i {
+    
+}
+div.item.teal {
+    background-color: #3BC494;
+}
+div.item.teal i {
+    
+}
+
 div.item:hover img {
     opacity: 0.3;
     -webkit-filter: grayscale(100%);
