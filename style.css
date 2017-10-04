@@ -47,9 +47,9 @@ div.item * {
 }
 
 div.item img {
+    height: 200px;
     width: 100%;
     vertical-align: top;
-    height: 200px;
 }
 
 div.item i {
@@ -94,20 +94,25 @@ div.item.copper {
 div.item.pink {
     background-color: #C46356;
 }
+
 div.item.pink i {
-    
+    color: #C46356;
 }
+
 div.item.beige {
     background-color: #C49239;
 }
+
 div.item.beige i {
-    
+    color: #C49239;
 }
+
 div.item.teal {
     background-color: #3BC494;
 }
+
 div.item.teal i {
-    
+    color: #3BC494;
 }
 
 div.item:hover img {
